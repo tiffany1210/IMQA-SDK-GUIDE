@@ -1,0 +1,166 @@
+{
+    "boottime": 1593164069335,
+    "instance": {
+        "id": 1593164073827
+    },
+    "custom_user_id": {
+        "id": "MyID44",
+        "name": "MyName44",
+        "email": "MyEmail44"
+    },
+    "version": "2.19.8",
+    "sdk_name": "imqa-crash-client",
+    "core_version": "2.19.9",
+    "uuid": "0c0b3a4d-2010-43eb-9678-cdff2f8e0313",
+    "osversion": "9",
+    "appversion": "1.2",
+    "kernelversion": "4.4.124+",
+    "device": "AOSP on IA Emulator",
+    "manufacturer": "Google",
+    "datetime": "2020-06-26 09:34:33",
+    "apikey": "$2a$05$gvghPyWZpLeFox9PK72FF.1VcrXdCL0TAISnpjKKcQm2yL/aip5Ey^#1U8389ATPE/szowZGlK27A==",
+    "device_id": "0c0b3a4d-2010-43eb-9678-cdff2f8e0313",
+    "locale": "English",
+    "country": "us",
+    "carrier_name": "T-Mobile",
+    "stage": "debug",
+    "build_id": "io.test.imqa.imqatestjava.live",
+    "version_code": "2",
+    "version_name": "1.2",
+    "architecture": "x86",
+    "rooted": 0,
+    "sysmemlow": 0,
+    "xdpi": 420,
+    "ydpi": 420,
+    "console_log": {
+        "data": "06-26 18:34:33.554 D/IMQAAgentCommon( 6835): [MemoryResource] ========= END memory info =========\n06-26 18:34:33.571 D/IMQAAgentMPM( 6835): [MEMINFO INFO] {\"MemTotal\":1530632,\"MemFree\":291316,\"MemAvailable\":686152,\"Buffers\":16724,\"Cached\":441316,\"SwapCached\":0,\"Active\":850436,\"Inactive\":191848,\"Active(anon)\":586992,\"Inactive(anon)\":16808,\"Active(file)\":263444,\"Inactive(file)\":175040,\"Unevictable\":2904,\"Mlocked\":2904,\"SwapTotal\":0,\"SwapFree\":0,\"Dirty\":704,\"Writeback\":0,\"AnonPages\":587188,\"Mapped\":321952,\"Shmem\":17108,\"Slab\":84168,\"SReclaimable\":30956,\"SUnreclaim\":53212,\"KernelStack\":22080,\"PageTables\":31816,\"NFS_Unstable\":0,\"Bounce\":0,\"WritebackTmp\":0,\"CommitLimit\":765316,\"Committed_AS\":38861264,\"VmallocTotal\":34359738367,\"VmallocUsed\":0,\"VmallocChunk\":0,\"CmaTotal\":294912,\"CmaFree\":248492,\"HugePages_Total\":0,\"HugePages_Free\":0,\"HugePages_Rsvd\":0,\"HugePages_Surp\":0,\"Hugepagesize\":2048,\"DirectMap4k\":157520,\"DirectMap2M\":1415168}\n06-26 18:34:33.571 D/IMQAAgentCommon( 6835): [TASK INFO] io.test.imqa.imqatestjava.live\n06-26 18:34:33.571 D/IMQAAgentCommon( 6835): [TASK INFO] io.test.imqa.imqatestjava.live:remote\n06-26 18:34:33.575 D/IMQAAgentMPM( 6835): [PROC STAT INFO] {\"state\":R,\"ppid\":1767,\"pgrp\":1767,\"session\":0,\"tty_nr\":0,\"tpgid\":-1,\"flags\":4211008,\"minflt\":15745,\"cminfltmajflt\":0,\"cmajflt\":0,\"utime\":0,\"stime\":271,\"cutime\":70,\"cstime\":0,\"priority\":0,\"nice\":10,\"num_threadsitrealvalue\":-10,\"starttime\":25,\"vsize\":0,\"rss_\":4444390,\"rsslim\":1479962624,\"startcode\":26128,\"endcode\":18446744073709551615,\"startstackkstkesp\":1673949184,\"kstkeip\":1673965792,\"signal\":4291581776,\"blocked\":4291559948,\"sigignore\":3917699897,\"sigcatch\":0,\"wchan\":4612,\"nswap\":1}\n06-26 18:34:33.578 D/IMQAAgentMPM( 6835): [Battery INFO] 100.0\n06-26 18:34:33.581 D/IMQAAgentMPM( 6835): [SYSTEM SERVICE INFO] {\"wifi\":true,\"mobile_network\":false,\"gps\":false}\n06-26 18:34:33.582 D/IMQAAgentMPM( 6835): [CPU INFO] {\"user\":-1,\"nice\":-1,\"system\":-1,\"idle\":-1,\"iowait\":-1,\"irq\":-1,\"softirq\":-1,\"steal\":-1,\"guest\":-1,\"guest_nice\":-1}\n06-26 18:34:33.582 D/IMQAAgentMPM( 6835): [NETWORK INFO] {\"trb\":805,\"ttb\":246,\"trp\":5,\"ttp\":5,\"mrb\":0,\"mtb\":0,\"mrp\":0,\"mtp\":0,\"urb\":40,\"utb\":40,\"urp\":1,\"utp\":1}\n06-26 18:34:33.582 D/IMQAAgentMPM( 6835): [FPS INFO] {\"fps\":0}\n06-26 18:34:33.582 D/IMQAAgentMPM( 6835): [TOOK_TIME] {thread_dump_time=20, proc_pid_time=3, battery_time=1, memory_time=0, frame_monitor_time=0, system_service_time=3, network_monitor_time=0, cpu_monitor_time=0}\n06-26 18:34:33.582 D/IMQAAgentMPM( 6835): [DUMP TIME] ====== 1593164073582 =======\n06-26 18:34:33.582 D/IMQAAgentMPM( 6835): [SHALLOW_DUMP] Got shallow dump data\n06-26 18:34:33.582 D/IMQAAgentMPM( 6835): [Dump Count] 3 / 60\n06-26 18:34:33.596 D/IMQAAgentMPM( 6835): [ADD_DUMP] ShallowDumpData{\"type\":\"res\",\"duration_time\":{\"start\":1593164073532,\"end\":1593164073582},\"task_time\":{\"thread_dump_time\":20,\"proc_pid_time\":3,\"battery_time\":1,\"memory_time\":0,\"frame_monitor_time\":0,\"system_service_time\":3,\"network_monitor_time\":0,\"cpu_monitor_time\":0},\"os\":{\"cpu\":{\"user\":-1,\"nice\":-1,\"system\":-1,\"idle\":-1,\"iowait\":-1,\"irq\":-1,\"softirq\":-1,\"steal\":-1,\"guest\":-1,\"guest_nice\":-1},\"meminfo\":{\"MemTotal\":1530632,\"MemFree\":291316,\"MemAvailable\":686152,\"Buffers\":16724,\"Cached\":441316,\"SwapCached\":0,\"Active\":850436,\"Inactive\":191848,\"Active(anon)\":586992,\"Inactive(anon)\":16808,\"Active(file)\":263444,\"Inactive(file)\":175040,\"Unevictable\":2904,\"Mlocked\":2904,\"SwapTotal\":0,\"SwapFree\":0,\"Dirty\":704,\"Writeback\":0,\"AnonPages\":587188,\"Mapped\":321952,\"Shmem\":17108,\"Slab\":84168,\"SReclaimable\":30956,\"SUnreclaim\":53212,\"KernelStack\":22080,\"PageTables\":31816,\"NFS_Unstable\":0,\"Bounce\":0,\"WritebackTmp\":0,\"CommitLimit\":765316,\"Committed_AS\":38861264,\"VmallocTotal\":34359738367,\"VmallocUsed\":0,\"VmallocChunk\":0,\"CmaTotal\":294912,\"CmaFree\":248492,\"HugePages_Total\":0,\"HugePages_Free\":0,\"HugePages_Rsvd\":0,\"HugePages_Surp\":0,\"Hugepagesize\":2048,\"DirectMap4k\":157520,\"DirectMap2M\":1415168},\"battery\":100,\"network_usage\":{\"trb\":805,\"ttb\":246,\"trp\":5,\"ttp\":5,\"mrb\":0,\"mtb\":0,\"mrp\":0,\"mtp\":0,\"urb\":40,\"utb\":40,\"urp\":1,\"utp\":1},\"frame\":{\"fps\":0}},\"app\":{\"cpu_app\":{\"state\":\"R\",\"ppid\":\"1767\",\"pgrp\":\"1767\",\"session\":\"0\",\"tty_nr\":\"0\",\"tpgid\":\"-1\",\"flags\":\"4211008\",\"minflt\":\"15745\",\"cminfltmajflt\":\"0\",\"cmajflt\":\"0\",\"utime\":\"0\",\"stime\":\"271\",\"cutime\":\"70\",\"cstime\":\"0\",\"priority\":\"0\",\"nice\":\"10\",\"num_threadsitrealvalue\":\"-10\",\"starttime\":\"25\",\"vsize\":\"0\",\"rss_\":\"4444390\",\"rsslim\":\"1479962624\",\"startcode\":\"26128\",\"endcode\":\"18446744073709551615\",\"startstackkstkesp\":\"1673949184\",\"kstkeip\":\"1673965792\",\"signal\":\"4291581776\",\"blocked\":\"4291559948\",\"sigignore\":\"3917699897\",\"sigcatch\":\"0\",\"wchan\":\"4612\",\"nswap\":\"1\"},\"memory\":{\"max\":402653184,\"total\":5310062,\"alloc\":3621688,\"free\":1688374},\"activity_stack\":[\"MainActivity\"],\"current_activity\":\"No Activity\",\"thread_trace\":[{\"thread_name\":\"FinalizerDaemon\",\"trace_list\":[{\"trace_depth\":0,\"trace_content\":\"java.lang.Object.wait(Native Method)\"},{\"trace_depth\":1,\"trace_content\":\"java.lang.Object.wait(Object.java:422)\"},{\"trace_depth\":2,\"trace_content\":\"java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:188)\"},{\"trace_depth\":3,\"trace_content\":\"java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:209)\"},{\"trace_depth\":4,\"trace_content\":\"java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:232)\"},{\"trace_depth\":5,\"trace_content\":\"java.lang.Daemons$Daemon.run(Daemons.java:103)\"},{\"trace_depth\":6,\"trace_content\":\"java.lang.Thread.run(Thread.java:764)\"}]},{\"thread_name\":\"process reaper\",\"trace_list\":[{\"trace_depth\":0,\"trace_content\":\"java.lang.UNIXProcess.waitForProcessExit(Native Method)\"},{\"trace_depth\":1,\"trace_content\":\"java.lang.UNIXProcess.access$200(UNIXProcess.java:55)\"},{\"trace_depth\":2,\"trace_content\":\"java.lang.UNIXProcess$3.run(UNIXProcess.java:172)\"},{\"trace_depth\":3,\"trace_content\":\"java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)\"},{\"trace_depth\":4,\"trace_content\":\"java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)\"},{\"trace_depth\":5,\"trace_content\":\"java.lang.Thread.run(Thread.java:764)\"}]},{\"thread_name\":\"Profile Saver\",\"trace_list\":[]},{\"thread_name\":\"Signal Catcher\",\"trace_list\":[]},{\"thread_name\":\"queued-work-looper\",\"trace_list\":[{\"trace_depth\":0,\"trace_content\":\"android.os.MessageQueue.nativePollOnce(Native Method)\"},{\"trace_depth\":1,\"trace_content\":\"android.os.MessageQueue.next(MessageQueue.java:326)\"},{\"trace_depth\":2,\"trace_content\":\"android.os.Looper.loop(Looper.java:160)\"},{\"trace_depth\":3,\"trace_content\":\"android.os.HandlerThread.run(HandlerThread.java:65)\"}]},{\"thread_name\":\"|ANR-WatchDog|\",\"trace_list\":[{\"trace_depth\":0,\"trace_content\":\"java.lang.Thread.sleep(Native Method)\"},{\"trace_depth\":1,\"trace_content\":\"java.lang.Thread.sleep(Thread.java:373)\"},{\"trace_depth\":\n06-26 18:34:33.599 D/IMQAAgentMPM( 6835): [Current Size] 43126\n06-26 18:34:33.599 D/IMQAAgentMPM( 6835): [Save Dump] save Dump Fileclass io.imqa.core.dump.ShallowDumpData\n06-26 18:34:33.608 D/IMQAAgentMPM( 6835): [dumpdata] {\"type\":\"res\",\"duration_time\":{\"start\":1593164073532,\"end\":1593164073582},\"task_time\":{\"thread_dump_time\":20,\"proc_pid_time\":3,\"battery_time\":1,\"memory_time\":0,\"frame_monitor_time\":0,\"system_service_time\":3,\"network_monitor_time\":0,\"cpu_monitor_time\":0},\"os\":{\"cpu\":{\"user\":-1,\"nice\":-1,\"system\":-1,\"idle\":-1,\"iowait\":-1,\"irq\":-1,\"softirq\":-1,\"steal\":-1,\"guest\":-1,\"guest_nice\":-1},\"meminfo\":{\"MemTotal\":1530632,\"MemFree\":291316,\"MemAvailable\":686152,\"Buffers\":16724,\"Cached\":441316,\"SwapCached\":0,\"Active\":850436,\"Inactive\":191848,\"Active(anon)\":586992,\"Inactive(anon)\":16808,\"Active(file)\":263444,\"Inactive(file)\":175040,\"Unevictable\":2904,\"Mlocked\":2904,\"SwapTotal\":0,\"SwapFree\":0,\"Dirty\":704,\"Writeback\":0,\"AnonPages\":587188,\"Mapped\":321952,\"Shmem\":17108,\"Slab\":84168,\"SReclaimable\":30956,\"SUnreclaim\":53212,\"KernelStack\":22080,\"PageTables\":31816,\"NFS_Unstable\":0,\"Bounce\":0,\"WritebackTmp\":0,\"CommitLimit\":765316,\"Committed_AS\":38861264,\"VmallocTotal\":34359738367,\"VmallocUsed\":0,\"VmallocChunk\":0,\"CmaTotal\":294912,\"CmaFree\":248492,\"HugePages_Total\":0,\"HugePages_Free\":0,\"HugePages_Rsvd\":0,\"HugePages_Surp\":0,\"Hugepagesize\":2048,\"DirectMap4k\":157520,\"DirectMap2M\":1415168},\"battery\":100,\"network_usage\":{\"trb\":805,\"ttb\":246,\"trp\":5,\"ttp\":5,\"mrb\":0,\"mtb\":0,\"mrp\":0,\"mtp\":0,\"urb\":40,\"utb\":40,\"urp\":1,\"utp\":1},\"frame\":{\"fps\":0}},\"app\":{\"cpu_app\":{\"state\":\"R\",\"ppid\":\"1767\",\"pgrp\":\"1767\",\"session\":\"0\",\"tty_nr\":\"0\",\"tpgid\":\"-1\",\"flags\":\"4211008\",\"minflt\":\"15745\",\"cminfltmajflt\":\"0\",\"cmajflt\":\"0\",\"utime\":\"0\",\"stime\":\"271\",\"cutime\":\"70\",\"cstime\":\"0\",\"priority\":\"0\",\"nice\":\"10\",\"num_threadsitrealvalue\":\"-10\",\"starttime\":\"25\",\"vsize\":\"0\",\"rss_\":\"4444390\",\"rsslim\":\"1479962624\",\"startcode\":\"26128\",\"endcode\":\"18446744073709551615\",\"startstackkstkesp\":\"1673949184\",\"kstkeip\":\"1673965792\",\"signal\":\"4291581776\",\"blocked\":\"4291559948\",\"sigignore\":\"3917699897\",\"sigcatch\":\"0\",\"wchan\":\"4612\",\"nswap\":\"1\"},\"memory\":{\"max\":402653184,\"total\":5310062,\"alloc\":3621688,\"free\":1688374},\"activity_stack\":[\"MainActivity\"],\"current_activity\":\"No Activity\",\"thread_trace\":[{\"thread_name\":\"FinalizerDaemon\",\"trace_list\":[{\"trace_depth\":0,\"trace_content\":\"java.lang.Object.wait(Native Method)\"},{\"trace_depth\":1,\"trace_content\":\"java.lang.Object.wait(Object.java:422)\"},{\"trace_depth\":2,\"trace_content\":\"java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:188)\"},{\"trace_depth\":3,\"trace_content\":\"java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:209)\"},{\"trace_depth\":4,\"trace_content\":\"java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:232)\"},{\"trace_depth\":5,\"trace_content\":\"java.lang.Daemons$Daemon.run(Daemons.java:103)\"},{\"trace_depth\":6,\"trace_content\":\"java.lang.Thread.run(Thread.java:764)\"}]},{\"thread_name\":\"process reaper\",\"trace_list\":[{\"trace_depth\":0,\"trace_content\":\"java.lang.UNIXProcess.waitForProcessExit(Native Method)\"},{\"trace_depth\":1,\"trace_content\":\"java.lang.UNIXProcess.access$200(UNIXProcess.java:55)\"},{\"trace_depth\":2,\"trace_content\":\"java.lang.UNIXProcess$3.run(UNIXProcess.java:172)\"},{\"trace_depth\":3,\"trace_content\":\"java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)\"},{\"trace_depth\":4,\"trace_content\":\"java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)\"},{\"trace_depth\":5,\"trace_content\":\"java.lang.Thread.run(Thread.java:764)\"}]},{\"thread_name\":\"Profile Saver\",\"trace_list\":[]},{\"thread_name\":\"Signal Catcher\",\"trace_list\":[]},{\"thread_name\":\"queued-work-looper\",\"trace_list\":[{\"trace_depth\":0,\"trace_content\":\"android.os.MessageQueue.nativePollOnce(Native Method)\"},{\"trace_depth\":1,\"trace_content\":\"android.os.MessageQueue.next(MessageQueue.java:326)\"},{\"trace_depth\":2,\"trace_content\":\"android.os.Looper.loop(Looper.java:160)\"},{\"trace_depth\":3,\"trace_content\":\"android.os.HandlerThread.run(HandlerThread.java:65)\"}]},{\"thread_name\":\"|ANR-WatchDog|\",\"trace_list\":[{\"trace_depth\":0,\"trace_content\":\"java.lang.Thread.sleep(Native Method)\"},{\"trace_depth\":1,\"trace_content\":\"java.lang.Thread.sleep(Thread.java:373)\"},{\"trace_depth\":2,\"trace_conten\n06-26 18:34:33.608 D/IMQAAgentMPM( 6835): [directory path] /data/user/0/io.test.imqa.imqatestjava.live/files/imqa_dump/io.test.imqa.imqatestjava.live/imqa-mpm-dump_2020626_1593164069448\n06-26 18:34:33.614 D/IMQAAgentMPM( 6835): [Data Dump Order] isFirstData : false\n"
+    },
+    "exception": {
+        "tag": "A",
+        "rank": 4,
+        "crash_callstack": "java.lang.Exception: HTTP REQUEST\n\tat io.test.imqa.imqatestjava.MainActivity.onCreate(MainActivity.java:114)\n\tat android.app.Activity.performCreate(Activity.java:7136)\n\tat android.app.Activity.performCreate(Activity.java:7127)\n\tat android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1271)\n\tat android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2893)\n\tat android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3048)\n\tat android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78)\n\tat android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108)\n\tat android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68)\n\tat android.app.ActivityThread$H.handleMessage(ActivityThread.java:1808)\n\tat android.os.Handler.dispatchMessage(Handler.java:106)\n\tat android.os.Looper.loop(Looper.java:193)\n\tat android.app.ActivityThread.main(ActivityThread.java:6669)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)\n\tat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)\n",
+        "errorname": "java.lang.Exception: HTTP REQUEST",
+        "errorclassname": "io.test.imqa.imqatestjava.MainActivity",
+        "linenum": 114,
+        "lastactivity": "No Activity",
+        "all_callstack": [
+            {
+                "thread_name": "FinalizerDaemon",
+                "callstack": "java.lang.Object.wait(Native Method)\n\tjava.lang.Object.wait(Object.java:422)\n\tjava.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:188)\n\tjava.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:209)\n\tjava.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:232)\n\tjava.lang.Daemons$Daemon.run(Daemons.java:103)\n\tjava.lang.Thread.run(Thread.java:764)\n\t"
+            },
+            {
+                "thread_name": "process reaper",
+                "callstack": "java.lang.Object.wait(Native Method)\n\tjava.lang.Thread.parkFor$(Thread.java:2137)\n\tsun.misc.Unsafe.park(Unsafe.java:358)\n\tjava.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)\n\tjava.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:461)\n\tjava.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)\n\tjava.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:937)\n\tjava.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)\n\tjava.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)\n\tjava.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)\n\tjava.lang.Thread.run(Thread.java:764)\n\t"
+            },
+            {
+                "thread_name": "Profile Saver",
+                "callstack": ""
+            },
+            {
+                "thread_name": "Signal Catcher",
+                "callstack": ""
+            },
+            {
+                "thread_name": "queued-work-looper",
+                "callstack": "android.os.MessageQueue.nativePollOnce(Native Method)\n\tandroid.os.MessageQueue.next(MessageQueue.java:326)\n\tandroid.os.Looper.loop(Looper.java:160)\n\tandroid.os.HandlerThread.run(HandlerThread.java:65)\n\t"
+            },
+            {
+                "thread_name": "|ANR-WatchDog|",
+                "callstack": "java.lang.Thread.sleep(Native Method)\n\tjava.lang.Thread.sleep(Thread.java:373)\n\tjava.lang.Thread.sleep(Thread.java:314)\n\tcom.github.anrwatchdog.ANRWatchDog.run(ANRWatchDog.java:191)\n\t"
+            },
+            {
+                "thread_name": "Jit thread pool worker thread 0",
+                "callstack": ""
+            },
+            {
+                "thread_name": "ReferenceQueueDaemon",
+                "callstack": "java.lang.Object.wait(Native Method)\n\tjava.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:178)\n\tjava.lang.Daemons$Daemon.run(Daemons.java:103)\n\tjava.lang.Thread.run(Thread.java:764)\n\t"
+            },
+            {
+                "thread_name": "main",
+                "callstack": "dalvik.system.VMStack.getThreadStackTrace(Native Method)\n\tjava.lang.Thread.getStackTrace(Thread.java:1538)\n\tio.imqa.core.dump.Resource.stacktrace.ThreadTraceResource.getAllThreadTracing(ThreadTraceResource.java:71)\n\tio.imqa.crash.collector.resource.AllStackResource.<init>(AllStackResource.java:26)\n\tio.imqa.crash.report.ErrorReportFactory.setCommonData(ErrorReportFactory.java:66)\n\tio.imqa.crash.report.ErrorReportFactory.CreateSendData(ErrorReportFactory.java:55)\n\tio.imqa.crash.report.ErrorReportFactory.CreateErrorReport(ErrorReportFactory.java:22)\n\tio.imqa.crash.IMQACrashAgent.SendException(IMQACrashAgent.java:320)\n\tio.test.imqa.imqatestjava.MainActivity.onCreate(MainActivity.java:116)\n\tandroid.app.Activity.performCreate(Activity.java:7136)\n\tandroid.app.Activity.performCreate(Activity.java:7127)\n\tandroid.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1271)\n\tandroid.app.ActivityThread.performLaunchActivity(ActivityThread.java:2893)\n\tandroid.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3048)\n\tandroid.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78)\n\tandroid.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108)\n\tandroid.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68)\n\tandroid.app.ActivityThread$H.handleMessage(ActivityThread.java:1808)\n\tandroid.os.Handler.dispatchMessage(Handler.java:106)\n\tandroid.os.Looper.loop(Looper.java:193)\n\tandroid.app.ActivityThread.main(ActivityThread.java:6669)\n\tjava.lang.reflect.Method.invoke(Native Method)\n\tcom.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)\n\tcom.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)\n\t"
+            },
+            {
+                "thread_name": "AsyncTask #1",
+                "callstack": "java.lang.Object.wait(Native Method)\n\tjava.lang.Thread.parkFor$(Thread.java:2137)\n\tsun.misc.Unsafe.park(Unsafe.java:358)\n\tjava.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:230)\n\tjava.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2101)\n\tjava.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)\n\tjava.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1091)\n\tjava.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)\n\tjava.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)\n\tjava.lang.Thread.run(Thread.java:764)\n\t"
+            },
+            {
+                "thread_name": "IMQADumpMassageQueue",
+                "callstack": "java.lang.Thread.sleep(Native Method)\n\tjava.lang.Thread.sleep(Thread.java:373)\n\tjava.lang.Thread.sleep(Thread.java:314)\n\tio.imqa.mpm.collector.DumpMassageQueue.run(DumpMassageQueue.java:85)\n\t"
+            },
+            {
+                "thread_name": "Picasso-refQueue",
+                "callstack": "java.lang.Object.wait(Native Method)\n\tjava.lang.Object.wait(Object.java:422)\n\tjava.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:188)\n\tcom.squareup.picasso.Picasso$CleanupThread.run(Picasso.java:631)\n\t"
+            },
+            {
+                "thread_name": "Picasso-Dispatcher",
+                "callstack": "android.os.MessageQueue.nativePollOnce(Native Method)\n\tandroid.os.MessageQueue.next(MessageQueue.java:326)\n\tandroid.os.Looper.loop(Looper.java:160)\n\tandroid.os.HandlerThread.run(HandlerThread.java:65)\n\t"
+            },
+            {
+                "thread_name": "ConnectivityThread",
+                "callstack": "android.os.MessageQueue.nativePollOnce(Native Method)\n\tandroid.os.MessageQueue.next(MessageQueue.java:326)\n\tandroid.os.Looper.loop(Looper.java:160)\n\tandroid.os.HandlerThread.run(HandlerThread.java:65)\n\t"
+            },
+            {
+                "thread_name": "Okio Watchdog",
+                "callstack": "java.lang.Object.wait(Native Method)\n\tcom.android.okhttp.okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:323)\n\tcom.android.okhttp.okio.AsyncTimeout.access$000(AsyncTimeout.java:40)\n\tcom.android.okhttp.okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:286)\n\t"
+            },
+            {
+                "thread_name": "Binder:6835_3",
+                "callstack": ""
+            },
+            {
+                "thread_name": "Picasso-Stats",
+                "callstack": "android.os.MessageQueue.nativePollOnce(Native Method)\n\tandroid.os.MessageQueue.next(MessageQueue.java:326)\n\tandroid.os.Looper.loop(Looper.java:160)\n\tandroid.os.HandlerThread.run(HandlerThread.java:65)\n\t"
+            },
+            {
+                "thread_name": "IMQAMonitoringThread",
+                "callstack": "java.lang.Thread.sleep(Native Method)\n\tjava.lang.Thread.sleep(Thread.java:373)\n\tjava.lang.Thread.sleep(Thread.java:314)\n\tio.imqa.core.monitor.MonitoringThread$1.run(MonitoringThread.java:62)\n\t"
+            },
+            {
+                "thread_name": "IMQACollectingThread",
+                "callstack": "java.lang.Thread.sleep(Native Method)\n\tjava.lang.Thread.sleep(Thread.java:373)\n\tjava.lang.Thread.sleep(Thread.java:314)\n\tio.imqa.mpm.collector.CollectingThread.run(CollectingThread.java:151)\n\t"
+            },
+            {
+                "thread_name": "OkHttp ConnectionPool",
+                "callstack": "java.lang.Object.wait(Native Method)\n\tcom.android.okhttp.ConnectionPool$1.run(ConnectionPool.java:101)\n\tjava.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)\n\tjava.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)\n\tjava.lang.Thread.run(Thread.java:764)\n\t"
+            },
+            {
+                "thread_name": "FinalizerWatchdogDaemon",
+                "callstack": "java.lang.Thread.sleep(Native Method)\n\tjava.lang.Thread.sleep(Thread.java:373)\n\tjava.lang.Thread.sleep(Thread.java:314)\n\tjava.lang.Daemons$FinalizerWatchdogDaemon.sleepFor(Daemons.java:342)\n\tjava.lang.Daemons$FinalizerWatchdogDaemon.waitForFinalization(Daemons.java:364)\n\tjava.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:281)\n\tjava.lang.Daemons$Daemon.run(Daemons.java:103)\n\tjava.lang.Thread.run(Thread.java:764)\n\t"
+            },
+            {
+                "thread_name": "HeapTaskDaemon",
+                "callstack": ""
+            },
+            {
+                "thread_name": "Binder:6835_2",
+                "callstack": ""
+            },
+            {
+                "thread_name": "Binder:6835_1",
+                "callstack": ""
+            }
+        ],
+        "gpson": false,
+        "wifion": true,
+        "mobileon": true,
+        "scrwidth": 1080,
+        "scrheight": 1794,
+        "batterylevel": 100,
+        "availsdcard": false,
+        "rooted": 0,
+        "xdpi": 420,
+        "ydpi": 420,
+        "scrorientation": 0,
+        "cpuusage": 25,
+        "appmemtotal": 6871327,
+        "appmemfree": 2566263,
+        "appmemmax": 402653184,
+        "appmemalloc": 4305064,
+        "sysmemlow": 0,
+        "eventpaths": [],
+        "custom_key": [],
+        "custom_log": []
+    },
+    "ip": "192.168.1.119"
+}

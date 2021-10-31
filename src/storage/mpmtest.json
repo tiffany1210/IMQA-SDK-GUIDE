@@ -1,0 +1,1979 @@
+{
+    "launch_time": 1594282157017,
+    "mpm_version": "2.15.0",
+    "dump_interval": 1000,
+    "package_name": "io.imqa.android.demo",
+    "process_name": "io.imqa.android.demo",
+    "project_key": "$2b$05$tDZN9GTmzQ8WWf67PLqRWeoH5Q421/c..g10bsgW0H4Fovm6p1ro.^#1U8389ATPE/szowZGlK27A==",
+    "device_info": {
+        "os": "7.1.0",
+        "app": "1.6",
+        "device": "Pixel 2",
+        "brand": "Google",
+        "carrier": "KT",
+        "ip": "127.0.0.1",
+        "uuid": "939d9b42-3eb8-4312-acea-e873c52795d6",
+        "location": {
+            "code": "CA",
+            "country_name": "CA"
+        },
+        "city": {
+            "code": "NL",
+            "city_name": "NL"
+        }
+    },
+    "data": [
+        {
+            "type": "agent_lifecycle",
+            "cycle_name": "FOREGROUND",
+            "start_time": 1594282157387
+        },
+        {
+            "type": "start",
+            "process_name": "io.imqa.android.demo",
+            "start_time": 1594282157407
+        },
+        {
+            "type": "render",
+            "activity_name": "MainActivity",
+            "lifecycle_name": "onCreate",
+            "start_time": 1594282157417,
+            "end_time": 1594282157453
+        },
+        {
+            "type": "render",
+            "activity_name": "MainActivity",
+            "lifecycle_name": "onStart",
+            "start_time": 1594282158153,
+            "end_time": 1594282158179
+        },
+        {
+            "type": "render",
+            "activity_name": "MainActivity",
+            "lifecycle_name": "onResume",
+            "start_time": 1594282158479,
+            "end_time": 1594282158490
+        },
+        {
+            "type": "flow",
+            "activity_name": "MainActivity",
+            "flow_time": 1594282157453
+        },
+        {
+            "type": "res",
+            "duration_time": {
+                "start": 1594282143453,
+                "end": 1594282127453
+            },
+            "task_time": {
+                "memory_time": 0,
+                "thread_dump_time": 0,
+                "proc_pid_time": 0,
+                "proc_stat_time": 0,
+                "vmstat_time": 0
+            },
+            "system_service": {
+                "wifi": true,
+                "gps": false,
+                "mobile_network": true
+            },
+            "os": {
+                "cpu": {
+                    "user": 9,
+                    "guest_nice": 10,
+                    "iowait": 92,
+                    "nice": 33,
+                    "guest": 47,
+                    "irq": 4,
+                    "softirq": 88,
+                    "system": 33,
+                    "idle": 33,
+                    "steal": 89
+                },
+                "frame": {
+                    "fps": 1
+                },
+                "battery": 39,
+                "meminfo": {
+                    "Dirty": 140,
+                    "Committed_AS": 31253900,
+                    "Inactive(file)": 556884,
+                    "Slab": 34732,
+                    "Active": 580060,
+                    "SwapCached": 0,
+                    "HighTotal": 1290240,
+                    "Active(anon)": 443292,
+                    "AnonPages": 440440,
+                    "VmallocTotal": 172032,
+                    "MemFree": "302918",
+                    "SwapTotal": 1048572,
+                    "Active(file)": 136768,
+                    "PageTables": 21916,
+                    "VmallocChunk": 20356,
+                    "Inactive(anon)": 1476,
+                    "SUnreclaim": 23764,
+                    "LowFree": 446908,
+                    "WritebackTmp": 0,
+                    "Shmem": 1536,
+                    "Buffers": 9740,
+                    "Bounce": 0,
+                    "Mapped": 181188,
+                    "SReclaimable": 10968,
+                    "NFS_Unstable": 0,
+                    "Cached": 685412,
+                    "HighFree": 70208,
+                    "Unevictable": 0,
+                    "Mlocked": 0,
+                    "KernelStack": 10264,
+                    "Inactive": 558360,
+                    "SwapFree": 1048572,
+                    "Writeback": 0,
+                    "MemTotal": "5048626",
+                    "LowTotal": 537272,
+                    "CommitLimit": 1962328,
+                    "VmallocUsed": 96424
+                },
+                "vmstat": {
+                    "sy": "0",
+                    "bi": "0",
+                    "wa": -1,
+                    "buff": "440008",
+                    "swpd": "520548",
+                    "r": "9",
+                    "free": "180280",
+                    "bo": "86",
+                    "id": "0",
+                    "si": "501",
+                    "cs": "13",
+                    "in": "1",
+                    "us": "0",
+                    "so": "3125",
+                    "b": "0",
+                    "cache": "34724"
+                },
+                "network_usage": {
+                    "utb": 7616,
+                    "mrb": 0,
+                    "utp": 22,
+                    "mrp": 0,
+                    "trp": 369,
+                    "mtp": 0,
+                    "mtb": 0,
+                    "urb": 1214,
+                    "urp": 13,
+                    "ttb": 22,
+                    "ttp": 440,
+                    "trb": 8589
+                }
+            },
+            "app": {
+                "cpu_app": {
+                    "cutime": 52,
+                    "num_threadsitrealvalue": "0",
+                    "session": "0",
+                    "wchan": "4612",
+                    "cstime": 98,
+                    "minflt": "5090",
+                    "ppid": "2021",
+                    "flags": "4194624",
+                    "starttime": "10",
+                    "startstackkstkesp": "1",
+                    "tpgid": "-1",
+                    "cmajflt": "0",
+                    "blocked": "0",
+                    "cminfltmajflt": "0",
+                    "priority": "0",
+                    "rsslim": "562962432",
+                    "endcode": "4294967295",
+                    "pgrp": "2021",
+                    "vsize": "0",
+                    "sigignore": "0",
+                    "nswap": "0",
+                    "signal": "0",
+                    "nice": "20",
+                    "kstkeip": "1",
+                    "sigcatch": "0",
+                    "state": "R",
+                    "stime": 64,
+                    "utime": 15,
+                    "startcode": "8192",
+                    "tty_nr": "0",
+                    "rss_": "6454"
+                },
+                "memory": {
+                    "max": 268435456,
+                    "alloc": "7820444",
+                    "free": 1241656,
+                    "total": 11513856
+                },
+                "thread_trace": [
+                    {
+                        "thread_name": "HeapTrimmerDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:326)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Binder_2",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "main",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "io.imqa.clientinterface.IMQAController.<clinit>(IMQAController.java:42)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "io.imqa.clientinterface.IMQAController.InitializeAndStartSession(IMQAController.java)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "com.ryla.rylatest.MyApplication.onCreate(MyApplication.java:55)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1021)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "android.app.ActivityThread.handleBindApplication(ActivityThread.java:5967)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "android.app.ActivityThread.access$1700(ActivityThread.java:197)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "android.app.ActivityThread$H.handleMessage(ActivityThread.java:1742)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "android.os.Handler.dispatchMessage(Handler.java:102)"
+                            },
+                            {
+                                "trace_depth": 8,
+                                "trace_content": "android.os.Looper.loop(Looper.java:145)"
+                            },
+                            {
+                                "trace_depth": 9,
+                                "trace_content": "android.app.ActivityThread.main(ActivityThread.java:6872)"
+                            },
+                            {
+                                "trace_depth": 10,
+                                "trace_content": "java.lang.reflect.Method.invoke(Native Method)"
+                            },
+                            {
+                                "trace_depth": 11,
+                                "trace_content": "java.lang.reflect.Method.invoke(Method.java:372)"
+                            },
+                            {
+                                "trace_depth": 12,
+                                "trace_content": "com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1404)"
+                            },
+                            {
+                                "trace_depth": 13,
+                                "trace_content": "com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1199)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "JDWP",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "Thread-59618",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "android.net.LocalSocketImpl.accept(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "android.net.LocalSocketImpl.accept(LocalSocketImpl.java:331)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "android.net.LocalServerSocket.accept(LocalServerSocket.java:90)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "com.android.tools.ir.server.Server$SocketServerThread.run(Server.java:165)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Signal Catcher",
+                        "trace_list": []
+                    }
+                ],
+                "activity_stack": [],
+                "current_activity": "LoginActivity"
+            }
+        },
+        {
+            "type": "res",
+            "duration_time": {
+                "start": 1594282080453,
+                "end": 1594282064453
+            },
+            "task_time": {
+                "memory_time": 0,
+                "thread_dump_time": 0,
+                "proc_pid_time": 0,
+                "proc_stat_time": 0,
+                "vmstat_time": 0
+            },
+            "system_service": {
+                "wifi": true,
+                "gps": false,
+                "mobile_network": true
+            },
+            "os": {
+                "cpu": {
+                    "user": 5,
+                    "guest_nice": 64,
+                    "iowait": 59,
+                    "nice": 33,
+                    "guest": 29,
+                    "irq": 97,
+                    "softirq": 90,
+                    "system": 33,
+                    "idle": 33,
+                    "steal": 23
+                },
+                "frame": {
+                    "fps": 5
+                },
+                "battery": 9,
+                "meminfo": {
+                    "Dirty": 140,
+                    "Committed_AS": 31253900,
+                    "Inactive(file)": 556884,
+                    "Slab": 34732,
+                    "Active": 580060,
+                    "SwapCached": 0,
+                    "HighTotal": 1290240,
+                    "Active(anon)": 443292,
+                    "AnonPages": 440440,
+                    "VmallocTotal": 172032,
+                    "MemFree": "302918",
+                    "SwapTotal": 1048572,
+                    "Active(file)": 136768,
+                    "PageTables": 21916,
+                    "VmallocChunk": 20356,
+                    "Inactive(anon)": 1476,
+                    "SUnreclaim": 23764,
+                    "LowFree": 446908,
+                    "WritebackTmp": 0,
+                    "Shmem": 1536,
+                    "Buffers": 9740,
+                    "Bounce": 0,
+                    "Mapped": 181188,
+                    "SReclaimable": 10968,
+                    "NFS_Unstable": 0,
+                    "Cached": 685412,
+                    "HighFree": 70208,
+                    "Unevictable": 0,
+                    "Mlocked": 0,
+                    "KernelStack": 10264,
+                    "Inactive": 558360,
+                    "SwapFree": 1048572,
+                    "Writeback": 0,
+                    "MemTotal": "5048626",
+                    "LowTotal": 537272,
+                    "CommitLimit": 1962328,
+                    "VmallocUsed": 96424
+                },
+                "vmstat": {
+                    "sy": "0",
+                    "bi": "0",
+                    "wa": -1,
+                    "buff": "440008",
+                    "swpd": "520548",
+                    "r": "9",
+                    "free": "180280",
+                    "bo": "86",
+                    "id": "0",
+                    "si": "501",
+                    "cs": "13",
+                    "in": "1",
+                    "us": "0",
+                    "so": "3125",
+                    "b": "0",
+                    "cache": "34724"
+                },
+                "network_usage": {
+                    "utb": 7616,
+                    "mrb": 0,
+                    "utp": 22,
+                    "mrp": 0,
+                    "trp": 369,
+                    "mtp": 0,
+                    "mtb": 0,
+                    "urb": 1214,
+                    "urp": 13,
+                    "ttb": 22,
+                    "ttp": 440,
+                    "trb": 8589
+                }
+            },
+            "app": {
+                "cpu_app": {
+                    "cutime": 52,
+                    "num_threadsitrealvalue": "0",
+                    "session": "0",
+                    "wchan": "4612",
+                    "cstime": 98,
+                    "minflt": "5090",
+                    "ppid": "2021",
+                    "flags": "4194624",
+                    "starttime": "10",
+                    "startstackkstkesp": "1",
+                    "tpgid": "-1",
+                    "cmajflt": "0",
+                    "blocked": "0",
+                    "cminfltmajflt": "0",
+                    "priority": "0",
+                    "rsslim": "562962432",
+                    "endcode": "4294967295",
+                    "pgrp": "2021",
+                    "vsize": "0",
+                    "sigignore": "0",
+                    "nswap": "0",
+                    "signal": "0",
+                    "nice": "20",
+                    "kstkeip": "1",
+                    "sigcatch": "0",
+                    "state": "R",
+                    "stime": 64,
+                    "utime": 15,
+                    "startcode": "8192",
+                    "tty_nr": "0",
+                    "rss_": "6454"
+                },
+                "memory": {
+                    "max": 268435456,
+                    "alloc": "7820444",
+                    "free": 1241656,
+                    "total": 11513856
+                },
+                "thread_trace": [
+                    {
+                        "thread_name": "HeapTrimmerDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:326)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Binder_2",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "main",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "io.imqa.clientinterface.IMQAController.<clinit>(IMQAController.java:42)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "io.imqa.clientinterface.IMQAController.InitializeAndStartSession(IMQAController.java)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "com.ryla.rylatest.MyApplication.onCreate(MyApplication.java:55)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1021)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "android.app.ActivityThread.handleBindApplication(ActivityThread.java:5967)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "android.app.ActivityThread.access$1700(ActivityThread.java:197)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "android.app.ActivityThread$H.handleMessage(ActivityThread.java:1742)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "android.os.Handler.dispatchMessage(Handler.java:102)"
+                            },
+                            {
+                                "trace_depth": 8,
+                                "trace_content": "android.os.Looper.loop(Looper.java:145)"
+                            },
+                            {
+                                "trace_depth": 9,
+                                "trace_content": "android.app.ActivityThread.main(ActivityThread.java:6872)"
+                            },
+                            {
+                                "trace_depth": 10,
+                                "trace_content": "java.lang.reflect.Method.invoke(Native Method)"
+                            },
+                            {
+                                "trace_depth": 11,
+                                "trace_content": "java.lang.reflect.Method.invoke(Method.java:372)"
+                            },
+                            {
+                                "trace_depth": 12,
+                                "trace_content": "com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1404)"
+                            },
+                            {
+                                "trace_depth": 13,
+                                "trace_content": "com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1199)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "JDWP",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "Thread-59618",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "android.net.LocalSocketImpl.accept(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "android.net.LocalSocketImpl.accept(LocalSocketImpl.java:331)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "android.net.LocalServerSocket.accept(LocalServerSocket.java:90)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "com.android.tools.ir.server.Server$SocketServerThread.run(Server.java:165)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "pool-2-thread-1",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Thread.parkFor(Thread.java:1220)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "sun.misc.Unsafe.park(Unsafe.java:299)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)"
+                            },
+                            {
+                                "trace_depth": 8,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)"
+                            },
+                            {
+                                "trace_depth": 9,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "FinalizerWatchdogDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:255)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:227)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Instr: io.imqa.mpm.MPMResourceCollector",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "dalvik.system.VMStack.getThreadStackTrace(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Thread.getStackTrace(Thread.java:580)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.getAllStackTraces(Thread.java:522)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "io.imqa.mpm.dump.Resource.stacktrace.ThreadTrace.getAllThreadTracing(ThreadTrace.java:47)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "io.imqa.mpm.dump.Resource.stacktrace.ThreadTrace.<init>(ThreadTrace.java:27)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "io.imqa.mpm.MPMResourceCollector.getShallowDump(MPMResourceCollector.java:204)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "io.imqa.mpm.MPMResourceCollector.onStart(MPMResourceCollector.java:148)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1889)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "GCDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$GCDaemon.run(Daemons.java:359)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "ReferenceQueueDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:149)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "AsyncTask #1",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "com.android.org.conscrypt.NativeCrypto.SSL_CTX_new(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "com.android.org.conscrypt.AbstractSessionContext.<init>(AbstractSessionContext.java:50)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "com.android.org.conscrypt.ServerSessionContext.<init>(ServerSessionContext.java:30)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "com.android.org.conscrypt.OpenSSLContextImpl.<init>(OpenSSLContextImpl.java:51)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.lang.reflect.Constructor.newInstance(Native Method)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "java.lang.Class.newInstance(Class.java:1690)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "java.security.Provider$Service.newInstanceNoParameter(Provider.java:1126)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "java.security.Provider$Service.newInstance(Provider.java:1095)"
+                            },
+                            {
+                                "trace_depth": 8,
+                                "trace_content": "org.apache.harmony.security.fortress.Engine.getInstance(Engine.java:141)"
+                            },
+                            {
+                                "trace_depth": 9,
+                                "trace_content": "javax.net.ssl.SSLContext.getInstance(SSLContext.java:138)"
+                            },
+                            {
+                                "trace_depth": 10,
+                                "trace_content": "com.android.okhttp.OkHttpClient.getDefaultSSLSocketFactory(OkHttpClient.java:528)"
+                            },
+                            {
+                                "trace_depth": 11,
+                                "trace_content": "com.android.okhttp.OkHttpClient.copyWithDefaults(OkHttpClient.java:494)"
+                            },
+                            {
+                                "trace_depth": 12,
+                                "trace_content": "com.android.okhttp.OkHttpClient.open(OkHttpClient.java:467)"
+                            },
+                            {
+                                "trace_depth": 13,
+                                "trace_content": "com.android.okhttp.OkHttpClient.open(OkHttpClient.java:462)"
+                            },
+                            {
+                                "trace_depth": 14,
+                                "trace_content": "com.android.okhttp.HttpHandler.openConnection(HttpHandler.java:33)"
+                            },
+                            {
+                                "trace_depth": 15,
+                                "trace_content": "java.net.URL.openConnection(URL.java:479)"
+                            },
+                            {
+                                "trace_depth": 16,
+                                "trace_content": "io.imqa.mpm.dump.DataUploadTask.doInBackground(DataUploadTask.java:54)"
+                            },
+                            {
+                                "trace_depth": 17,
+                                "trace_content": "io.imqa.mpm.dump.DataUploadTask.doInBackground(DataUploadTask.java:30)"
+                            },
+                            {
+                                "trace_depth": 18,
+                                "trace_content": "android.os.AsyncTask$2.call(AsyncTask.java:292)"
+                            },
+                            {
+                                "trace_depth": 19,
+                                "trace_content": "java.util.concurrent.FutureTask.run(FutureTask.java:237)"
+                            },
+                            {
+                                "trace_depth": 20,
+                                "trace_content": "android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)"
+                            },
+                            {
+                                "trace_depth": 21,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)"
+                            },
+                            {
+                                "trace_depth": 22,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)"
+                            },
+                            {
+                                "trace_depth": 23,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Binder_1",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "FinalizerDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Object.wait(Object.java:422)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.lang.Daemons$FinalizerDaemon.run(Daemons.java:189)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Signal Catcher",
+                        "trace_list": []
+                    }
+                ],
+                "activity_stack": [],
+                "current_activity": "LoginActivity"
+            }
+        },
+        {
+            "type": "res",
+            "duration_time": {
+                "start": 1594282046453,
+                "end": 1594282027453
+            },
+            "task_time": {
+                "memory_time": 0,
+                "thread_dump_time": 0,
+                "proc_pid_time": 0,
+                "proc_stat_time": 0,
+                "vmstat_time": 0
+            },
+            "system_service": {
+                "wifi": false,
+                "gps": true,
+                "mobile_network": false
+            },
+            "os": {
+                "cpu": {
+                    "user": 8,
+                    "guest_nice": 44,
+                    "iowait": 10,
+                    "nice": 33,
+                    "guest": 75,
+                    "irq": 72,
+                    "softirq": 62,
+                    "system": 33,
+                    "idle": 33,
+                    "steal": 39
+                },
+                "frame": {
+                    "fps": 19
+                },
+                "battery": 1,
+                "meminfo": {
+                    "Dirty": 140,
+                    "Committed_AS": 31253900,
+                    "Inactive(file)": 556884,
+                    "Slab": 34732,
+                    "Active": 580060,
+                    "SwapCached": 0,
+                    "HighTotal": 1290240,
+                    "Active(anon)": 443292,
+                    "AnonPages": 440440,
+                    "VmallocTotal": 172032,
+                    "MemFree": "302918",
+                    "SwapTotal": 1048572,
+                    "Active(file)": 136768,
+                    "PageTables": 21916,
+                    "VmallocChunk": 20356,
+                    "Inactive(anon)": 1476,
+                    "SUnreclaim": 23764,
+                    "LowFree": 446908,
+                    "WritebackTmp": 0,
+                    "Shmem": 1536,
+                    "Buffers": 9740,
+                    "Bounce": 0,
+                    "Mapped": 181188,
+                    "SReclaimable": 10968,
+                    "NFS_Unstable": 0,
+                    "Cached": 685412,
+                    "HighFree": 70208,
+                    "Unevictable": 0,
+                    "Mlocked": 0,
+                    "KernelStack": 10264,
+                    "Inactive": 558360,
+                    "SwapFree": 1048572,
+                    "Writeback": 0,
+                    "MemTotal": "5048626",
+                    "LowTotal": 537272,
+                    "CommitLimit": 1962328,
+                    "VmallocUsed": 96424
+                },
+                "vmstat": {
+                    "sy": "0",
+                    "bi": "0",
+                    "wa": -1,
+                    "buff": "440008",
+                    "swpd": "520548",
+                    "r": "9",
+                    "free": "180280",
+                    "bo": "86",
+                    "id": "0",
+                    "si": "501",
+                    "cs": "13",
+                    "in": "1",
+                    "us": "0",
+                    "so": "3125",
+                    "b": "0",
+                    "cache": "34724"
+                },
+                "network_usage": {
+                    "utb": 7616,
+                    "mrb": 0,
+                    "utp": 22,
+                    "mrp": 0,
+                    "trp": 369,
+                    "mtp": 0,
+                    "mtb": 0,
+                    "urb": 1214,
+                    "urp": 13,
+                    "ttb": 22,
+                    "ttp": 440,
+                    "trb": 8589
+                }
+            },
+            "app": {
+                "cpu_app": {
+                    "cutime": 52,
+                    "num_threadsitrealvalue": "0",
+                    "session": "0",
+                    "wchan": "4612",
+                    "cstime": 98,
+                    "minflt": "5090",
+                    "ppid": "2021",
+                    "flags": "4194624",
+                    "starttime": "10",
+                    "startstackkstkesp": "1",
+                    "tpgid": "-1",
+                    "cmajflt": "0",
+                    "blocked": "0",
+                    "cminfltmajflt": "0",
+                    "priority": "0",
+                    "rsslim": "562962432",
+                    "endcode": "4294967295",
+                    "pgrp": "2021",
+                    "vsize": "0",
+                    "sigignore": "0",
+                    "nswap": "0",
+                    "signal": "0",
+                    "nice": "20",
+                    "kstkeip": "1",
+                    "sigcatch": "0",
+                    "state": "R",
+                    "stime": 64,
+                    "utime": 15,
+                    "startcode": "8192",
+                    "tty_nr": "0",
+                    "rss_": "6454"
+                },
+                "memory": {
+                    "max": 268435456,
+                    "alloc": "7820444",
+                    "free": 1241656,
+                    "total": 11513856
+                },
+                "thread_trace": [
+                    {
+                        "thread_name": "HeapTrimmerDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:326)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Binder_2",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "main",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "io.imqa.clientinterface.IMQAController.<clinit>(IMQAController.java:42)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "io.imqa.clientinterface.IMQAController.InitializeAndStartSession(IMQAController.java)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "com.ryla.rylatest.MyApplication.onCreate(MyApplication.java:55)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1021)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "android.app.ActivityThread.handleBindApplication(ActivityThread.java:5967)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "android.app.ActivityThread.access$1700(ActivityThread.java:197)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "android.app.ActivityThread$H.handleMessage(ActivityThread.java:1742)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "android.os.Handler.dispatchMessage(Handler.java:102)"
+                            },
+                            {
+                                "trace_depth": 8,
+                                "trace_content": "android.os.Looper.loop(Looper.java:145)"
+                            },
+                            {
+                                "trace_depth": 9,
+                                "trace_content": "android.app.ActivityThread.main(ActivityThread.java:6872)"
+                            },
+                            {
+                                "trace_depth": 10,
+                                "trace_content": "java.lang.reflect.Method.invoke(Native Method)"
+                            },
+                            {
+                                "trace_depth": 11,
+                                "trace_content": "java.lang.reflect.Method.invoke(Method.java:372)"
+                            },
+                            {
+                                "trace_depth": 12,
+                                "trace_content": "com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1404)"
+                            },
+                            {
+                                "trace_depth": 13,
+                                "trace_content": "com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1199)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "JDWP",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "Thread-59618",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "android.net.LocalSocketImpl.accept(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "android.net.LocalSocketImpl.accept(LocalSocketImpl.java:331)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "android.net.LocalServerSocket.accept(LocalServerSocket.java:90)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "com.android.tools.ir.server.Server$SocketServerThread.run(Server.java:165)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "pool-2-thread-1",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Thread.parkFor(Thread.java:1220)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "sun.misc.Unsafe.park(Unsafe.java:299)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)"
+                            },
+                            {
+                                "trace_depth": 8,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)"
+                            },
+                            {
+                                "trace_depth": 9,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "FinalizerWatchdogDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:255)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:227)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Instr: io.imqa.mpm.MPMResourceCollector",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "dalvik.system.VMStack.getThreadStackTrace(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Thread.getStackTrace(Thread.java:580)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.getAllStackTraces(Thread.java:522)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "io.imqa.mpm.dump.Resource.stacktrace.ThreadTrace.getAllThreadTracing(ThreadTrace.java:47)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "io.imqa.mpm.dump.Resource.stacktrace.ThreadTrace.<init>(ThreadTrace.java:27)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "io.imqa.mpm.MPMResourceCollector.getShallowDump(MPMResourceCollector.java:204)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "io.imqa.mpm.MPMResourceCollector.onStart(MPMResourceCollector.java:148)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1889)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "GCDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$GCDaemon.run(Daemons.java:359)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "ReferenceQueueDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:149)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "AsyncTask #1",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "com.android.org.conscrypt.NativeCrypto.SSL_CTX_new(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "com.android.org.conscrypt.AbstractSessionContext.<init>(AbstractSessionContext.java:50)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "com.android.org.conscrypt.ServerSessionContext.<init>(ServerSessionContext.java:30)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "com.android.org.conscrypt.OpenSSLContextImpl.<init>(OpenSSLContextImpl.java:51)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.lang.reflect.Constructor.newInstance(Native Method)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "java.lang.Class.newInstance(Class.java:1690)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "java.security.Provider$Service.newInstanceNoParameter(Provider.java:1126)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "java.security.Provider$Service.newInstance(Provider.java:1095)"
+                            },
+                            {
+                                "trace_depth": 8,
+                                "trace_content": "org.apache.harmony.security.fortress.Engine.getInstance(Engine.java:141)"
+                            },
+                            {
+                                "trace_depth": 9,
+                                "trace_content": "javax.net.ssl.SSLContext.getInstance(SSLContext.java:138)"
+                            },
+                            {
+                                "trace_depth": 10,
+                                "trace_content": "com.android.okhttp.OkHttpClient.getDefaultSSLSocketFactory(OkHttpClient.java:528)"
+                            },
+                            {
+                                "trace_depth": 11,
+                                "trace_content": "com.android.okhttp.OkHttpClient.copyWithDefaults(OkHttpClient.java:494)"
+                            },
+                            {
+                                "trace_depth": 12,
+                                "trace_content": "com.android.okhttp.OkHttpClient.open(OkHttpClient.java:467)"
+                            },
+                            {
+                                "trace_depth": 13,
+                                "trace_content": "com.android.okhttp.OkHttpClient.open(OkHttpClient.java:462)"
+                            },
+                            {
+                                "trace_depth": 14,
+                                "trace_content": "com.android.okhttp.HttpHandler.openConnection(HttpHandler.java:33)"
+                            },
+                            {
+                                "trace_depth": 15,
+                                "trace_content": "java.net.URL.openConnection(URL.java:479)"
+                            },
+                            {
+                                "trace_depth": 16,
+                                "trace_content": "io.imqa.mpm.dump.DataUploadTask.doInBackground(DataUploadTask.java:54)"
+                            },
+                            {
+                                "trace_depth": 17,
+                                "trace_content": "io.imqa.mpm.dump.DataUploadTask.doInBackground(DataUploadTask.java:30)"
+                            },
+                            {
+                                "trace_depth": 18,
+                                "trace_content": "android.os.AsyncTask$2.call(AsyncTask.java:292)"
+                            },
+                            {
+                                "trace_depth": 19,
+                                "trace_content": "java.util.concurrent.FutureTask.run(FutureTask.java:237)"
+                            },
+                            {
+                                "trace_depth": 20,
+                                "trace_content": "android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)"
+                            },
+                            {
+                                "trace_depth": 21,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)"
+                            },
+                            {
+                                "trace_depth": 22,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)"
+                            },
+                            {
+                                "trace_depth": 23,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Binder_1",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "FinalizerDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Object.wait(Object.java:422)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.lang.Daemons$FinalizerDaemon.run(Daemons.java:189)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Signal Catcher",
+                        "trace_list": []
+                    }
+                ],
+                "activity_stack": [],
+                "current_activity": "LoginActivity"
+            }
+        },
+        {
+            "type": "res",
+            "duration_time": {
+                "start": 1594282017453,
+                "end": 1594281998453
+            },
+            "task_time": {
+                "memory_time": 0,
+                "thread_dump_time": 0,
+                "proc_pid_time": 0,
+                "proc_stat_time": 0,
+                "vmstat_time": 0
+            },
+            "system_service": {
+                "wifi": true,
+                "gps": true,
+                "mobile_network": true
+            },
+            "os": {
+                "cpu": {
+                    "user": 3,
+                    "guest_nice": 53,
+                    "iowait": 8,
+                    "nice": 33,
+                    "guest": 48,
+                    "irq": 93,
+                    "softirq": 22,
+                    "system": 33,
+                    "idle": 33,
+                    "steal": 18
+                },
+                "frame": {
+                    "fps": 3
+                },
+                "battery": 35,
+                "meminfo": {
+                    "Dirty": 140,
+                    "Committed_AS": 31253900,
+                    "Inactive(file)": 556884,
+                    "Slab": 34732,
+                    "Active": 580060,
+                    "SwapCached": 0,
+                    "HighTotal": 1290240,
+                    "Active(anon)": 443292,
+                    "AnonPages": 440440,
+                    "VmallocTotal": 172032,
+                    "MemFree": "302918",
+                    "SwapTotal": 1048572,
+                    "Active(file)": 136768,
+                    "PageTables": 21916,
+                    "VmallocChunk": 20356,
+                    "Inactive(anon)": 1476,
+                    "SUnreclaim": 23764,
+                    "LowFree": 446908,
+                    "WritebackTmp": 0,
+                    "Shmem": 1536,
+                    "Buffers": 9740,
+                    "Bounce": 0,
+                    "Mapped": 181188,
+                    "SReclaimable": 10968,
+                    "NFS_Unstable": 0,
+                    "Cached": 685412,
+                    "HighFree": 70208,
+                    "Unevictable": 0,
+                    "Mlocked": 0,
+                    "KernelStack": 10264,
+                    "Inactive": 558360,
+                    "SwapFree": 1048572,
+                    "Writeback": 0,
+                    "MemTotal": "5048626",
+                    "LowTotal": 537272,
+                    "CommitLimit": 1962328,
+                    "VmallocUsed": 96424
+                },
+                "vmstat": {
+                    "sy": "0",
+                    "bi": "0",
+                    "wa": -1,
+                    "buff": "440008",
+                    "swpd": "520548",
+                    "r": "9",
+                    "free": "180280",
+                    "bo": "86",
+                    "id": "0",
+                    "si": "501",
+                    "cs": "13",
+                    "in": "1",
+                    "us": "0",
+                    "so": "3125",
+                    "b": "0",
+                    "cache": "34724"
+                },
+                "network_usage": {
+                    "utb": 7616,
+                    "mrb": 0,
+                    "utp": 22,
+                    "mrp": 0,
+                    "trp": 369,
+                    "mtp": 0,
+                    "mtb": 0,
+                    "urb": 1214,
+                    "urp": 13,
+                    "ttb": 22,
+                    "ttp": 440,
+                    "trb": 8589
+                }
+            },
+            "app": {
+                "cpu_app": {
+                    "cutime": 52,
+                    "num_threadsitrealvalue": "0",
+                    "session": "0",
+                    "wchan": "4612",
+                    "cstime": 98,
+                    "minflt": "5090",
+                    "ppid": "2021",
+                    "flags": "4194624",
+                    "starttime": "10",
+                    "startstackkstkesp": "1",
+                    "tpgid": "-1",
+                    "cmajflt": "0",
+                    "blocked": "0",
+                    "cminfltmajflt": "0",
+                    "priority": "0",
+                    "rsslim": "562962432",
+                    "endcode": "4294967295",
+                    "pgrp": "2021",
+                    "vsize": "0",
+                    "sigignore": "0",
+                    "nswap": "0",
+                    "signal": "0",
+                    "nice": "20",
+                    "kstkeip": "1",
+                    "sigcatch": "0",
+                    "state": "R",
+                    "stime": 64,
+                    "utime": 15,
+                    "startcode": "8192",
+                    "tty_nr": "0",
+                    "rss_": "6454"
+                },
+                "memory": {
+                    "max": 268435456,
+                    "alloc": "7820444",
+                    "free": 1241656,
+                    "total": 11513856
+                },
+                "thread_trace": [
+                    {
+                        "thread_name": "HeapTrimmerDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:326)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Binder_2",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "main",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "io.imqa.clientinterface.IMQAController.<clinit>(IMQAController.java:42)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "io.imqa.clientinterface.IMQAController.InitializeAndStartSession(IMQAController.java)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "com.ryla.rylatest.MyApplication.onCreate(MyApplication.java:55)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1021)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "android.app.ActivityThread.handleBindApplication(ActivityThread.java:5967)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "android.app.ActivityThread.access$1700(ActivityThread.java:197)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "android.app.ActivityThread$H.handleMessage(ActivityThread.java:1742)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "android.os.Handler.dispatchMessage(Handler.java:102)"
+                            },
+                            {
+                                "trace_depth": 8,
+                                "trace_content": "android.os.Looper.loop(Looper.java:145)"
+                            },
+                            {
+                                "trace_depth": 9,
+                                "trace_content": "android.app.ActivityThread.main(ActivityThread.java:6872)"
+                            },
+                            {
+                                "trace_depth": 10,
+                                "trace_content": "java.lang.reflect.Method.invoke(Native Method)"
+                            },
+                            {
+                                "trace_depth": 11,
+                                "trace_content": "java.lang.reflect.Method.invoke(Method.java:372)"
+                            },
+                            {
+                                "trace_depth": 12,
+                                "trace_content": "com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1404)"
+                            },
+                            {
+                                "trace_depth": 13,
+                                "trace_content": "com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1199)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "JDWP",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "Thread-59618",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "android.net.LocalSocketImpl.accept(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "android.net.LocalSocketImpl.accept(LocalSocketImpl.java:331)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "android.net.LocalServerSocket.accept(LocalServerSocket.java:90)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "com.android.tools.ir.server.Server$SocketServerThread.run(Server.java:165)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "pool-2-thread-1",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Thread.parkFor(Thread.java:1220)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "sun.misc.Unsafe.park(Unsafe.java:299)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)"
+                            },
+                            {
+                                "trace_depth": 8,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)"
+                            },
+                            {
+                                "trace_depth": 9,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "FinalizerWatchdogDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:255)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:227)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Instr: io.imqa.mpm.MPMResourceCollector",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "dalvik.system.VMStack.getThreadStackTrace(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Thread.getStackTrace(Thread.java:580)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.getAllStackTraces(Thread.java:522)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "io.imqa.mpm.dump.Resource.stacktrace.ThreadTrace.getAllThreadTracing(ThreadTrace.java:47)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "io.imqa.mpm.dump.Resource.stacktrace.ThreadTrace.<init>(ThreadTrace.java:27)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "io.imqa.mpm.MPMResourceCollector.getShallowDump(MPMResourceCollector.java:204)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "io.imqa.mpm.MPMResourceCollector.onStart(MPMResourceCollector.java:148)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1889)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "GCDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$GCDaemon.run(Daemons.java:359)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "ReferenceQueueDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:149)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "AsyncTask #1",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "com.android.org.conscrypt.NativeCrypto.SSL_CTX_new(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "com.android.org.conscrypt.AbstractSessionContext.<init>(AbstractSessionContext.java:50)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "com.android.org.conscrypt.ServerSessionContext.<init>(ServerSessionContext.java:30)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "com.android.org.conscrypt.OpenSSLContextImpl.<init>(OpenSSLContextImpl.java:51)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.lang.reflect.Constructor.newInstance(Native Method)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "java.lang.Class.newInstance(Class.java:1690)"
+                            },
+                            {
+                                "trace_depth": 6,
+                                "trace_content": "java.security.Provider$Service.newInstanceNoParameter(Provider.java:1126)"
+                            },
+                            {
+                                "trace_depth": 7,
+                                "trace_content": "java.security.Provider$Service.newInstance(Provider.java:1095)"
+                            },
+                            {
+                                "trace_depth": 8,
+                                "trace_content": "org.apache.harmony.security.fortress.Engine.getInstance(Engine.java:141)"
+                            },
+                            {
+                                "trace_depth": 9,
+                                "trace_content": "javax.net.ssl.SSLContext.getInstance(SSLContext.java:138)"
+                            },
+                            {
+                                "trace_depth": 10,
+                                "trace_content": "com.android.okhttp.OkHttpClient.getDefaultSSLSocketFactory(OkHttpClient.java:528)"
+                            },
+                            {
+                                "trace_depth": 11,
+                                "trace_content": "com.android.okhttp.OkHttpClient.copyWithDefaults(OkHttpClient.java:494)"
+                            },
+                            {
+                                "trace_depth": 12,
+                                "trace_content": "com.android.okhttp.OkHttpClient.open(OkHttpClient.java:467)"
+                            },
+                            {
+                                "trace_depth": 13,
+                                "trace_content": "com.android.okhttp.OkHttpClient.open(OkHttpClient.java:462)"
+                            },
+                            {
+                                "trace_depth": 14,
+                                "trace_content": "com.android.okhttp.HttpHandler.openConnection(HttpHandler.java:33)"
+                            },
+                            {
+                                "trace_depth": 15,
+                                "trace_content": "java.net.URL.openConnection(URL.java:479)"
+                            },
+                            {
+                                "trace_depth": 16,
+                                "trace_content": "io.imqa.mpm.dump.DataUploadTask.doInBackground(DataUploadTask.java:54)"
+                            },
+                            {
+                                "trace_depth": 17,
+                                "trace_content": "io.imqa.mpm.dump.DataUploadTask.doInBackground(DataUploadTask.java:30)"
+                            },
+                            {
+                                "trace_depth": 18,
+                                "trace_content": "android.os.AsyncTask$2.call(AsyncTask.java:292)"
+                            },
+                            {
+                                "trace_depth": 19,
+                                "trace_content": "java.util.concurrent.FutureTask.run(FutureTask.java:237)"
+                            },
+                            {
+                                "trace_depth": 20,
+                                "trace_content": "android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)"
+                            },
+                            {
+                                "trace_depth": 21,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)"
+                            },
+                            {
+                                "trace_depth": 22,
+                                "trace_content": "java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)"
+                            },
+                            {
+                                "trace_depth": 23,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Binder_1",
+                        "trace_list": []
+                    },
+                    {
+                        "thread_name": "FinalizerDaemon",
+                        "trace_list": [
+                            {
+                                "trace_depth": 0,
+                                "trace_content": "java.lang.Object.wait(Native Method)"
+                            },
+                            {
+                                "trace_depth": 1,
+                                "trace_content": "java.lang.Object.wait(Object.java:422)"
+                            },
+                            {
+                                "trace_depth": 2,
+                                "trace_content": "java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)"
+                            },
+                            {
+                                "trace_depth": 3,
+                                "trace_content": "java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)"
+                            },
+                            {
+                                "trace_depth": 4,
+                                "trace_content": "java.lang.Daemons$FinalizerDaemon.run(Daemons.java:189)"
+                            },
+                            {
+                                "trace_depth": 5,
+                                "trace_content": "java.lang.Thread.run(Thread.java:818)"
+                            }
+                        ]
+                    },
+                    {
+                        "thread_name": "Signal Catcher",
+                        "trace_list": []
+                    }
+                ],
+                "activity_stack": [],
+                "current_activity": "LoginActivity"
+            }
+        },
+        {
+            "type": "render",
+            "activity_name": "WebviewActivity",
+            "lifecycle_name": "onCreate",
+            "start_time": 1594282165757,
+            "end_time": 1594282165774
+        },
+        {
+            "type": "render",
+            "activity_name": "WebviewActivity",
+            "lifecycle_name": "onStart",
+            "start_time": 1594282166474,
+            "end_time": 1594282166492
+        },
+        {
+            "type": "render",
+            "activity_name": "WebviewActivity",
+            "lifecycle_name": "onResume",
+            "start_time": 1594282166592,
+            "end_time": 1594282166614
+        },
+        {
+            "type": "flow",
+            "activity_name": "WebviewActivity",
+            "flow_time": 1594282165774
+        },
+        {
+            "type": "agent_lifecycle",
+            "cycle_name": "BACKGROUND",
+            "start_time": 1594282114068
+        }
+    ]
+}
